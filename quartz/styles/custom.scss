@@ -89,3 +89,30 @@
     object-fit: cover;
   }
 }
+
+@media (max-width: 768px) {
+
+  /* プロフィール写真：少し小さく＋中央 */
+  .markdown-preview-view img {
+    width: 82%;
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+
+  /* 小見出し：少し大きく */
+  .callout-title-inner p {
+    font-size: 20px !important;
+  }
+
+  /* 本文：少し小さく */
+  .markdown-preview-view p,
+  .markdown-preview-view li,
+  .markdown-preview-view .callout-content {
+    font-size: 15px !important;
+  }
+}
