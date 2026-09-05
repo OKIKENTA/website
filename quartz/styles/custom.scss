@@ -16,7 +16,7 @@
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
-  margin: 1.5rem 0 !important;
+  margin: 0.5rem 0 !important;
 }
 
 .callout-title {
@@ -40,10 +40,6 @@
 .callout-content a {
   text-decoration: none;
 }
-.markdown-preview-view {
-  line-height: 3;
-}
-
 .markdown-preview-view,
 .markdown-preview-view p,
 .markdown-preview-view li,
@@ -55,11 +51,34 @@
   color: var(--darkgray);
 }
 .callout-title-inner p {
+  font-family: "Noto Serif JP", serif !important;
   font-size: 18px !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 .markdown-preview-view p,
 .markdown-preview-view li,
 .markdown-preview-view .callout-content {
   line-height:1.75  !important;
+}
+@media (min-width: 1200px) {
+  .page > #quartz-body {
+    grid-template-columns: 260px auto 260px !important;
+  }
+}
+
+/* 大見出し：仕事・活動、経歴など */
+.markdown-preview-view h2 {
+  font-family: "Noto Serif JP", serif !important;
+  font-weight: 700 !important;
+}
+
+/* 小見出し：公演・展示、トークなど */
+.callout-title-inner p {
+  font-family: "Noto Serif JP", serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.markdown-preview-view h2 {
+  margin-top: 4rem !important;
 }
