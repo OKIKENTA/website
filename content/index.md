@@ -1,4 +1,4 @@
-# 沖 健汰-OKI KENTA
+# 沖 健汰 OKI KENTA
 
 ![[0814-223.jpg|430]]
 
