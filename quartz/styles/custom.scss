@@ -1,3 +1,65 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+/* 目次の階層表示 */
+.toc-content {
+  .depth-1 {
+    padding-left: 1.2rem;
+  }
+
+  .depth-2 {
+    padding-left: 2.4rem;
+  }
+}
+/* シンプルな折りたたみ */
+.callout {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 1.5rem 0 !important;
+}
+
+.callout-title {
+  background: transparent !important;
+  border-bottom: 1px solid var(--gray);
+  padding: 0.7rem 0 !important;
+}
+
+.callout-icon {
+  display: none !important;
+}
+
+.callout-content {
+  padding: 1rem 0 !important;
+}
+
+.callout-content ul {
+  list-style-type: disc !important;
+}
+
+.callout-content a {
+  text-decoration: none;
+}
+.markdown-preview-view {
+  line-height: 3;
+}
+
+.markdown-preview-view,
+.markdown-preview-view p,
+.markdown-preview-view li,
+.markdown-preview-view a,
+.markdown-preview-view .callout-content {
+  font-family: var(--font-interface) !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkgray);
+}
+.callout-title-inner p {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+.markdown-preview-view p,
+.markdown-preview-view li,
+.markdown-preview-view .callout-content {
+  line-height:1.75  !important;
+}

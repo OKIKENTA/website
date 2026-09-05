@@ -78,11 +78,11 @@ plugins:
     enabled: true
     order: 40
   - source: "@quartz-community/table-of-contents"
-    enabled: right
+    enabled: true
     order: 50
     layout:
-      position: right
-      priority: 30
+    position: left
+    priority: 30
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
