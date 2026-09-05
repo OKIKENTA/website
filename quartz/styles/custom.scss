@@ -106,7 +106,7 @@
 
   /* 小見出し：少し大きく */
   .callout-title-inner p {
-    font-size: 26px !important;
+    font-size: 28px !important;
   }
 
   /* 本文：少し小さく */
@@ -115,4 +115,9 @@
   .markdown-preview-view .callout-content {
     font-size: 15px !important;
   }
+}
+
+.markdown-preview-view h1 {
+  font-family: "Noto Serif JP", serif !important;
+  font-weight: 800 !important;
 }
