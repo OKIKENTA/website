@@ -122,3 +122,15 @@
   font-weight: 800 !important;
   letter-spacing: 0.05em;
 }
+
+@media (max-width: 768px) {
+  .markdown-preview-view > p,
+  .markdown-preview-view li,
+  .markdown-preview-view .callout-content {
+    font-size: 15px !important;
+  }
+
+  .callout-title-inner p {
+    font-size: 20px !important;
+  }
+}
